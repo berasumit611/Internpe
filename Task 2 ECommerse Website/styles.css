@@ -1,4 +1,6 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 
 * {
     margin: 0;
@@ -7,7 +9,7 @@
   }
   body{
     background: #000;
-    font-family: 'lato',sans-serif;
+    font-family: 'Poppins', sans-serif;
     
   }
   #page-wrapper{
@@ -33,7 +35,7 @@
     width: 100vw;
     padding: 0px 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background: #8ecae6;
     z-index: 1;
@@ -128,7 +130,7 @@ nav>ul{
     
     text-align: left;
     max-height: 70vh;
-    width: 75vw;
+    width: 90vw;
     
     margin: 30px auto;
     opacity: 0.8;
@@ -138,7 +140,7 @@ nav>ul{
   max-width: 50%;
   margin-bottom: 30px;
  
-  font-size: 5rem;
+  font-size: 4rem;
   }
   #hero form{
     max-width: 50%;
