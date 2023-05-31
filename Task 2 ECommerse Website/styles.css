@@ -175,23 +175,24 @@ nav>ul{
 
   @media (max-width:650px){
     .feature-content{
-      margin-top: 120px;
-      height: 80vh;
+      margin-top: 150px;
+      height: calc(100vh - 148px);
     }
       #hero{
-        max-height: 70vh;
-        margin-top:50px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        height: 100%;
         opacity: 0.8;
         }
 
-      #hero > h2 {
-      max-width: 65%;
-      margin-top: 30px;
+      #hero  h2 {
+      width: 100vw;
       margin-bottom: 30px;
-      font-size: 3rem;
+      font-size: 2.5rem;
       }
       #hero form{
-        max-width: 65%;
+        max-width: 100%;
         
       }
 
